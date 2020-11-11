@@ -1,0 +1,57 @@
+.round-image {
+    border-radius: 50% !important;
+    height: auto;
+}
+
+.user-name {
+    font-size: 26px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.btn {
+    border-radius: 8px !important;
+    outline: none !important;
+}
+
+.user-id {
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+    margin-bottom: 0% !important;
+}
+
+.line {
+    font-size: 16px !important;
+}
+
+.hover {
+    display: inline-block;
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.hover:hover {
+    cursor: pointer;
+    color: #007bff !important;
+}
+
+.repo-list {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.line-top {
+    border-top: 1px solid grey !important;
+}
+
+.no-pad {
+    padding: 0% !important;
+}
+
+.bt {
+    width: 100%;
+}

@@ -1,12 +1,10 @@
 async function fetchUser() {
     try {
         document.getElementById('loading').style.display = 'inline';
-        name = document.getElementById('search').value;
-        // let searchUserApi=`https://api.github.com/`
+        let name = document.getElementById('search').value;
         let searchUserApi = `https://api.github.com/search/users?q=${name}`
         let res = await fetch(searchUserApi);
         let data = await res.json();
-        console.log(data);
         let container = document.getElementById('container');
         container.innerHTML = '';
         if (data.total_count > 0) {
@@ -21,9 +19,9 @@ async function fetchUser() {
                 let title = createMyTag('h5', 'card-title');
                 title.innerHTML = `${obj.login}`;
                 let link = createMyTag('a', 'btn btn-primary');
-                link.href = `${obj.html_url}`;
+                link.href = `user.html?${obj.login}`;
                 link.target = 'blank';
-                link.innerHTML = `Visit Github Profile`;
+                link.innerHTML = `See More`;
                 cardBody.append(title, link);
                 card.append(userImg, cardBody);
                 container.appendChild(card);
