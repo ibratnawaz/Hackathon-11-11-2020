@@ -5,7 +5,6 @@ async function fetchUser() {
         let searchUserApi = `https://api.github.com/users/${user}`
         let res = await fetch(searchUserApi);
         let data = await res.json();
-        console.log(data);
         document.getElementById('user-pic').src = `${data.avatar_url}`;
         document.getElementById('name').innerHTML = `${data.name}`;
         document.getElementById('username').innerHTML = `${data.login}`;
@@ -24,7 +23,6 @@ async function fetchUser() {
 async function getRepo(repoLink) {
     let res = await fetch(repoLink);
     let data = await res.json();
-    console.log(data);
     let box = document.getElementById('repo-box');
     data.forEach(obj => {
         let div = createMyTag('div', 'border-tp mt-4');

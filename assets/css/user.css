@@ -16,6 +16,11 @@ a {
     text-decoration: underline !important;
 }
 
+.my-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+
 #repo-count {
     padding: 2px 8px 2px 8px;
     background: #E8EAEC;
@@ -59,11 +64,6 @@ a {
 
 .hover {
     display: inline-block;
-}
-
-.hover:hover {
-    cursor: pointer;
-    color: blue;
 }
 
 .border-tp {
