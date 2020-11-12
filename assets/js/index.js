@@ -1,5 +1,6 @@
 async function fetchUser() {
     try {
+        document.getElementById('error').style.display = 'none';
         document.getElementById('loading').style.display = 'inline';
         let name = document.getElementById('search').value;
         let searchUserApi = `https://api.github.com/search/users?q=${name}`
@@ -28,6 +29,7 @@ async function fetchUser() {
             });
         } else {
             document.getElementById('error').style.display = 'inline';
+            document.getElementById('loading').style.display = 'none';
         }
 
     } catch (error) {
