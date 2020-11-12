@@ -33,7 +33,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #242a38, #242836, #242534, #232331, #23212f);
+    background: #0C1723;
 }
 
 
@@ -78,9 +78,35 @@ input:focus {
 .icon {
     width: 500px;
     height: 300px;
-    background-image: url(../images/bg-image.jpg);
-    background-position: center;
-    background-size: cover;
+}
+
+.dv {
+    display: block;
+    background: inherit;
+}
+
+.gt {
+    width: 250px !important;
+    height: 250px !important;
+    font-size: 200px !important;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.p {
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C1723;
+}
+
+.bor {
+    background-image: linear-gradient(to right top, #aa40b4, #9351c3, #775ecf, #556ad6, #1f73d9);
+    border-radius: 50%;
+    padding: 2px;
 }
 
 .center {
@@ -101,7 +127,6 @@ input:focus {
     color: #f39c07;
     font-size: 3.5em;
     font-family: serif;
-    text-shadow: 1px 0px 3px #f39c07;
 }
 
 .card {

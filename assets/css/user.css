@@ -1,12 +1,5 @@
-.round-image {
-    border-radius: 50% !important;
-    height: auto;
-}
-
-.user-name {
-    font-size: 26px;
-    font-weight: 500;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+* {
+    margin: 0% !important;
 }
 
 .btn {
@@ -14,44 +7,65 @@
     outline: none !important;
 }
 
-.user-id {
-    font-size: 20px !important;
-    font-style: normal !important;
-    font-weight: 100 !important;
-    margin-bottom: 0% !important;
-}
-
-.line {
-    font-size: 16px !important;
-}
-
-.hover {
-    display: inline-block;
-}
-
-a{
+a {
     color: black !important;
     text-decoration: none !important;
 }
 
-.hover:hover {
-    cursor: pointer;
-    color: #007bff !important;
+.repo:hover {
+    text-decoration: underline !important;
 }
 
-.repo-list {
-    font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+#repo-count {
+    padding: 2px 8px 2px 8px;
+    background: #E8EAEC;
+    border-radius: 20px;
 }
 
-.line-top {
-    border-top: 1px solid grey !important;
+.text-primary {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 26px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.name1,
+.user-bio {
+    font-size: 20px;
+    font-style: normal;
+    color: var(--color-text-secondary);
+}
+
+.name1 {
+    font-weight: 300;
 }
 
 .no-pad {
     padding: 0% !important;
 }
 
-.bt {
-    width: 100%;
+.img {
+    width: 260px;
+    height: 260px;
+}
+
+.line {
+    font-size: 15px !important;
+}
+
+.hover {
+    display: inline-block;
+}
+
+.hover:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.border-tp {
+    border-top: 1px solid grey !important;
 }

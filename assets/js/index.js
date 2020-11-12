@@ -19,7 +19,7 @@ async function fetchUser() {
                 let title = createMyTag('h5', 'card-title');
                 title.innerHTML = `${obj.login}`;
                 let link = createMyTag('a', 'btn btn-primary');
-                link.href = `user.html?${obj.login}`;
+                link.href = `user.html?user=${obj.login}`;
                 link.target = 'blank';
                 link.innerHTML = `See More`;
                 cardBody.append(title, link);
