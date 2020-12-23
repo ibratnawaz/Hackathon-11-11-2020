@@ -1,4 +1,4 @@
-# Hackathon-Nov-11-2020
+# GUVI Hackathon-Nov-11-2020
 # Github-Finder (basic version)
 # Technologies Used
 -- HTML
