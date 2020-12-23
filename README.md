@@ -1,2 +1,8 @@
 # Hackathon-Nov-11-2020
-# Topic - Github-clone (git user finder)
+# Github-Finder (basic version)
+# Technologies Used
+-- HTML
+-- CSS
+-- JavaScript
+-- Boostrap 4
+-- GitHub Api
